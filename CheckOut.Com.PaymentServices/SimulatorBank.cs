@@ -10,9 +10,9 @@ namespace CheckOut.Com.PaymentServices
     {
         private static Dictionary<Guid, Transaction> _transactions = new Dictionary<Guid, Transaction>(); // for reconciliation with PG
         private static Dictionary<string, string> _custCard = new Dictionary<string, string>()
-        {{"1111111111111111", "1"} };
+        {{"1111222233334444", "1"} };
         private static Dictionary<string, CardBalance> _cardCardBalance = new Dictionary<string, CardBalance>()
-        {{"1", new CardBalance{ CardNumber="1111111111111111", Amount= 10m } } };
+        {{"1", new CardBalance{ CardNumber="1111222233334444", Amount= 100m } } };
 
         public string Name { get; set; } = typeof(SimulatorBank).Name;
 

@@ -3,3 +3,6 @@
 /CheckOut.Com.PaymentServices/obj
 /CheckOut.com.PaymentServices.Tests/obj
 /CheckOut.com.PaymentServices.Tests/bin
+/CheckOut.Com.PaymentServices/CheckOut.Com.PaymentServices.csproj.user
+/.vs/CheckOut.Com.PaymentServices/v16/Server/sqlite3
+/.vs/CheckOut.Com.PaymentServices/v16/.suo
